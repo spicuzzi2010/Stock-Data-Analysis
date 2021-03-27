@@ -1,8 +1,37 @@
-# VBA-challenge
-This document contains VBA code to analyze multiple years of real stock market data. It takes a list of stocks from 2014,2015, 2016 and calculates the change in stock price over the year, the percent change over the year, and the total volume for the stock for the year. Conditional formatting is used to color the cell red for a decrease over the year and green for a gain over the year. A summary table is also created to show the greatest increase for the year, greatest derease for the year, and greatest total volume for the year.
+ VBA Homework - The VBA of Wall Street
 
-## Technologies
-* Excel
-* VBA
+## Background
 
+You are well on your way to becoming a programmer and Excel master! In this homework assignment you will use VBA scripting to analyze real stock market data. Depending on your comfort level with VBA, you may choose to challenge yourself with a few of the challenge tasks.
 
+### Files
+
+* [Test Data](Resources/alphabetical_testing.xlsx) - Use this while developing your scripts.
+
+* [Stock Data](Resources/Multiple_year_stock_data.xlsx) - Run your scripts on this data to generate the final homework report.
+
+### Stock market analyst
+
+![stock Market](Images/stockmarket.jpg)
+
+## Instructions
+
+* Create a script that will loop through all the stocks for one year and output the following information.
+
+  * The ticker symbol.
+
+  * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+  * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
+
+  * The total stock volume of the stock.
+
+* You should also have conditional formatting that will highlight positive change in green and negative change in red.
+
+* The result should look as follows.
+
+![moderate_solution](Images/moderate_solution.png)
+
+## BONUS
+
+* Your solution will also be able to return the stock with the "Greatest % increase", "Greatest % decrease" and "Greatest total volume". The solution will look as follows:
