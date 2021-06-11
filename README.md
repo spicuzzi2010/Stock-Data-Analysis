@@ -1,5 +1,7 @@
 The VBA of Wall Street
 
+![stock Market](Images/stockmarket.jpg)
+
 ### Stock market analysis
 
 The excel file in this repository contians VBA scripting to analyze real stock market data. The VBA script has been developed to loop through all the stocks for one year and output the following information:
@@ -18,6 +20,6 @@ The excel file in this repository contians VBA scripting to analyze real stock m
 
 
 
-![stock Market](Images/stockmarket.jpg)
+
 
 
